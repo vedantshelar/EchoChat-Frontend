@@ -1,0 +1,42 @@
+.userCardMainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+.userCardInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.username{
+    font-size: 1.2rem;
+    font-weight: 510;
+}
+
+.online{
+    padding-left: 5px;
+    color: rgba(0, 128, 0, 0.835);
+    font-weight: 505;
+}
+
+.offline{
+    padding-left: 5px;
+    color: rgba(255, 0, 0, 0.834);
+    font-weight: 505;
+}
+
+.chatBtn{
+    background-color: rgba(0, 0, 0, 0.906);
+    padding: 5px 15px;
+    color: white;
+    font-weight: 505;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+#searchBarMainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#searchBarMainContainer > input{
+    width: 97%;
+    padding: 10px 10px; 
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#searchBarMainContainer > i{
+    font-size: 3rem;
+    cursor: pointer;
+}
