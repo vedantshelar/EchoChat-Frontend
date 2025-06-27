@@ -40,3 +40,16 @@
     border: none;
     border-radius: 5px;
 }
+
+@media screen and (max-width:550px){
+
+    #groupCardBtnsContainer{
+    margin-left: 5px;
+    }
+    
+    #groupCardBtnsContainer > button{ 
+        padding: 5px 10px;
+        font-weight: 505;
+        font-size: 0.8rem;
+    }
+}

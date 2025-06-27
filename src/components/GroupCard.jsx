@@ -26,10 +26,10 @@ function GroupCard({ group, currUser, setRefresh }) {
     }
     return (
         <div className={styles.userCardMainContainer}>
-            <div className={styles.userCardInfoContainer}>
+            <div className={styles.userCardInfoContainer}> 
                 <span className={styles.username}>{group.name}</span>
             </div>
-            <div className={styles.userCardBtnContainer}>
+            <div className={styles.userCardBtnContainer} id={styles.groupCardBtnsContainer}>
                 {group.createdBy === currUser._id && <button className={styles.chatBtn} style={{ marginRight: "20px", backgroundColor: "darkred" }} onClick={deleteGroup}>Delete Group</button>}
                 {group.createdBy === currUser._id && <button className={styles.chatBtn} style={{ marginRight: "20px" }} onClick={goToViewMembersPage}>View Members</button>}
                 <button className={styles.chatBtn} onClick={goToChatWindow}>Chat</button>
